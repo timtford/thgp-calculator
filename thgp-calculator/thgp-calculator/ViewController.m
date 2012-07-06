@@ -3,6 +3,7 @@
 //  thgp-calculator
 //
 //  Created by Timothy Ford on 7/6/12.
+//  Editied By Tyson Walton
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
