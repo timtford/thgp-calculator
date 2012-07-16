@@ -16,7 +16,11 @@
 
 @end
 
-@implementation ViewController
+@implementation ViewController;
+
+@synthesize
+
+@synthesize
 
 - (void)viewDidLoad
 {
