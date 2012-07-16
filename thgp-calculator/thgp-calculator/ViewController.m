@@ -59,6 +59,7 @@
 
 
 
+
 -(IBAction)operatorFunction
 {
     
@@ -76,7 +77,14 @@
 
 
 
-
+//   ClearScreen/ Clears the screen.
+-(IBAction)clearscreen:(id)sender 
+{    
+    inputNumber1 = 0;
+    inputNumber2 = 0;
+    *operatorPressed = NULL;
+    calculatedResult = 0;
+}
 
 @end
 
