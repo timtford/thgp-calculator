@@ -16,7 +16,7 @@
     double calculatedResult;
     UITextField *calculatorDisplay;
 }
-@property (nonatomic, retain) IBOutlet UITextField *operatorPressed;
+@property (nonatomic, retain) NSString  *operatorPressed;
 @property (nonatomic, retain) IBOutlet UITextField *calculatorDisplay;
 
 -(IBAction)numberPressed:(id)sender;
