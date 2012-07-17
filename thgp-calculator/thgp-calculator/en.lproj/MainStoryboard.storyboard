@@ -311,6 +311,7 @@
         </scene>
     </scenes>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     <classes>
         <class className="ViewController" superclassName="UIViewController">
@@ -318,6 +319,21 @@
         </class>
     </classes>
 >>>>>>> added calculator display
+=======
+    <classes>
+        <class className="ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="calculate:"/>
+                <relationship kind="action" name="clearScreen:"/>
+                <relationship kind="action" name="negativePositive:"/>
+                <relationship kind="action" name="numberPressed:"/>
+                <relationship kind="action" name="operatorFunction:"/>
+                <relationship kind="outlet" name="calculatorDisplay" candidateClass="UITextField"/>
+            </relationships>
+        </class>
+    </classes>
+>>>>>>> worked on my negative positive ibaction
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

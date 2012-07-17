@@ -18,7 +18,8 @@
 
 @implementation ViewController;
 
-
+@synthesize operatorPressed;
+@synthesize calculatorDisplay;
 
  
 
@@ -78,6 +79,12 @@
     {
         // plus button was pushed
         operatorPressed = @"+";
+=======
+    if(operatorPressed== "+"){
+      
+        
+        
+
     }
     
     if (buttonInfo.tag == 10)
@@ -110,17 +117,21 @@
 {    
     inputNumber1 = 0;
     inputNumber2 = 0;
+<<<<<<< HEAD
     operatorPressed = NULL;
+=======
+    NSString *operatorPressed = NULL;
+>>>>>>> worked on my negative positive ibaction
     calculatedResult = 0;
     calculatorDisplay.text = NULL;
 }
-
+// changes input number to negative or positve
 -(IBAction)negativePositive:(id)sender;
 
 {
     NSString *operatorPressed;
     
-    
-    
+   double inputNumber1; 
+   double inpuyNumber2;
 }
 @end
