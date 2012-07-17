@@ -59,13 +59,35 @@
     if (buttonInfo.tag == 6) 
     {
     // division sign was pressed
-    
-        <#statements#>
+    operatorPressed = @"/";
+    }
+   
+    if (buttonInfo.tag == 7)
+    {
+    // multiply button was pushed
+        operatorPressed = @"*";
     }
     
+    if (buttonInfo.tag == 8)
+    {
+        // minus button was pushed
+        operatorPressed = @"-";
+    }
     
+    if (buttonInfo.tag == 9)
+    {
+        // plus button was pushed
+        operatorPressed = @"+";
+    }
     
+    if (buttonInfo.tag == 10)
+    {
+        // radical button was pushed
+        operatorPressed = @"%";
+        
+    }
     
+}
     
     
     
