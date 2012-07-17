@@ -44,20 +44,32 @@
 }
     //converion comands;
 
+<<<<<<< HEAD
 
 
 
 -(IBAction)calculate:(id)sender {
+=======
+-(IBAction)operatorFunction: (id)sender
+{
+    UIButton *buttonInfo;
+    buttonInfo = (UIButton *)sender;
+    NSLog(@" sender.tag = %d", buttonInfo.tag);
     
-    if(operaterpressed== "+"){
-      
-        
-        
+    if (buttonInfo.tag == 6) 
+    {
+    // division sign was pressed
+    
+        <#statements#>
     }
-        
     
-}
-
+    
+    
+    
+    
+    
+    
+    
 
 
 
