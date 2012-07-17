@@ -18,9 +18,11 @@
 
 @implementation ViewController;
 
-@synthesize
 
-@synthesize
+
+ 
+
+
 
 
 
@@ -60,18 +62,10 @@
 
 
 
--(IBAction)operatorFunction
+-(IBAction)numberPressed:(id)sender;
 {
-    
-    
-    
-    
-    
-    
-    
-    
-    
-}
+  
+   }
 
 
 
