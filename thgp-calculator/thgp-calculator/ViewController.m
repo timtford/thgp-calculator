@@ -22,6 +22,8 @@
 
 @synthesize
 
+
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -38,6 +40,24 @@
 {
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
+    //converion comands;
+
+
+
+
+-(IBAction)calculate:(id)sender {
+    
+    if(operaterpressed== "+"){
+      
+        
+        
+    }
+        
+    
+}
+
+
+
 
 -(IBAction)operatorFunction
 {
@@ -59,3 +79,15 @@
 
 
 @end
+
+
+
+
+
+
+
+
+
+
+
+
