@@ -8,14 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController{
- 
+@interface ViewController : UIViewController
+{ 
     double inputNumber1;
     double inputNumber2;    
     NSString *operatorPressed;
     double calculatedResult;
-    UITextField *calculatorDisplay
+    UITextField *calculatorDisplay;
 }
+@property (nonatomic, retain) IBOutlet UITextField *operatorPressed;
+@property (nonatomic, retain) IBOutlet UITextField *calculatorDisplay;
+
 -(IBAction)numberPressed:(id)sender;
 -(IBAction)negativePositive:(id)sender;
 -(IBAction)calculate:(id)sender;
@@ -24,3 +27,4 @@
 
 
 @end
+

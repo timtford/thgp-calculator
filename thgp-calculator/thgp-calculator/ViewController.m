@@ -80,16 +80,12 @@
     calculatedResult = 0;
 }
 
+-(IBAction)negativePositive:(id)sender;
+
+{
+    NSString *operatorPressed;
+    
+    
+    
+}
 @end
-
-
-
-
-
-
-
-
-
-
-
-
