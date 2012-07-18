@@ -15,7 +15,10 @@
     NSString *operatorPressed;
     double calculatedResult;
     UITextField *calculatorDisplay;
+    bool isOperatorPressed;
+    double output
 }
+
 @property (nonatomic, retain) NSString  *operatorPressed;
 @property (nonatomic, retain) IBOutlet UITextField *calculatorDisplay;
 

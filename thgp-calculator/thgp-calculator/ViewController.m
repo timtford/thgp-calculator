@@ -129,8 +129,10 @@
 -(IBAction)negativePositive:(id)sender;
 
 {
-    NSString *operatorPressed;
-    
+  
+   UITextField *calculatorDisplay;
+     
+   bool isOperatorPressed
    double inputNumber1; 
    double inpuyNumber2;
 }
