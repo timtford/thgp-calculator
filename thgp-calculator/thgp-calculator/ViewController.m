@@ -110,8 +110,9 @@
 {    
     inputNumber1 = 0;
     inputNumber2 = 0;
-    *operatorPressed = NULL;
+    operatorPressed = NULL;
     calculatedResult = 0;
+    calculatorDisplay.text = NULL;
 }
 
 -(IBAction)negativePositive:(id)sender;
