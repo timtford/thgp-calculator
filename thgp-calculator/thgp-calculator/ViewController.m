@@ -22,11 +22,6 @@
 @synthesize calculatorDisplay;
 
  
-
-
-
-
-
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -45,12 +40,14 @@
 }
     //converion comands;
 
-<<<<<<< HEAD
+
 
 
 
 -(IBAction)calculate:(id)sender {
-=======
+    {
+        
+    }
 -(IBAction)operatorFunction: (id)sender
 {
     UIButton *buttonInfo;
@@ -126,14 +123,17 @@
     calculatorDisplay.text = NULL;
 }
 // changes input number to negative or positve
--(IBAction)negativePositive:(id)sender;
-
+-(IBAction)negativePositive:(id)sender
 {
-  
-   UITextField *calculatorDisplay;
-     
-   bool isOperatorPressed
-   double inputNumber1; 
-   double inpuyNumber2;
+    double output;
+    
+    output=[calculatorDisplay.text doubleValue];
+    output=output *-1;
+    calculatorDisplay.text= output;
+    if(isOperatorPressed){
+      inputNumber2= output;
+    else {
+      inputNumber1= output;
+    }
 }
 @end
