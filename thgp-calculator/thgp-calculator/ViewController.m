@@ -45,14 +45,12 @@
 
 
 
--(IBAction)calculate:(id)sender {
 
 -(IBAction)operatorFunction: (id)sender
 {
     UIButton *buttonInfo;
     buttonInfo = (UIButton *)sender;
     NSLog(@" sender.tag = %d", buttonInfo.tag);
-    
     
     if (buttonInfo.tag == 26) 
     {
@@ -87,10 +85,17 @@
     
     
     
+-(IBAction)calculate:(id)sender {
     
-
-
-
+    if (isOperatorPressed && operatorPressed == @"-") {
+        calculatedResult = inputNumber1 - inputNumber2;
+        calculatedResult = calculatorDisplay.text;
+    } else {
+    }
+    
+    
+}
+    
 
 -(IBAction)numberPressed:(id)sender
 {
