@@ -45,46 +45,37 @@
 
 
 -(IBAction)calculate:(id)sender {
-    {
-        
-    }
+
 -(IBAction)operatorFunction: (id)sender
 {
     UIButton *buttonInfo;
     buttonInfo = (UIButton *)sender;
     NSLog(@" sender.tag = %d", buttonInfo.tag);
     
-    if (buttonInfo.tag == 6) 
+    if (buttonInfo.tag == 26) 
     {
     // division sign was pressed
     operatorPressed = @"/";
     }
    
-    if (buttonInfo.tag == 7)
+    if (buttonInfo.tag == 27)
     {
     // multiply button was pushed
         operatorPressed = @"*";
     }
     
-    if (buttonInfo.tag == 8)
+    if (buttonInfo.tag == 28)
     {
         // minus button was pushed
         operatorPressed = @"-";
     }
     
-    if (buttonInfo.tag == 9)
+    if (buttonInfo.tag == 29)
     {
         // plus button was pushed
         operatorPressed = @"+";
-=======
-    if(operatorPressed== "+"){
-      
-        
-        
-
-    }
     
-    if (buttonInfo.tag == 10)
+    if (buttonInfo.tag == 20)
     {
         // radical button was pushed
         operatorPressed = @"%";
