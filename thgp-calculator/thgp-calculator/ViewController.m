@@ -74,18 +74,20 @@
     {
         // plus button was pushed
         operatorPressed = @"+";
-    
+
+    }
     if (buttonInfo.tag == 20)
     {
         // radical button was pushed
         operatorPressed = @"%";
-        
     }
+    
 }
     
     
-    
--(IBAction)calculate:(id)sender {
+
+-(IBAction)calculate:(id)sender
+{
     
     if (isOperatorPressed && operatorPressed == @"-") {
         calculatedResult = inputNumber1 - inputNumber2;
@@ -111,11 +113,13 @@
         
         inputNumber2 = [outputText doubleValue];
     } else {
-            
+        
         UITextField inputNumber1;
         UITextField inputNumber2;
-      
-            }  
+        
+    }  
+    
+    
 }
 
 
@@ -131,6 +135,10 @@
     operatorPressed = NULL;
     calculatorDisplay.text = NULL;
 }
+    
+    
+    
+    
 // changes input number to negative or positve
 -(IBAction)negativePositive:(id)sender
 {
@@ -139,10 +147,16 @@
     output = [calculatorDisplay.text doubleValue];
     output = output * -1;
     calculatorDisplay.text = output;
-    if(isOperatorPressed){
+    if(isOperatorPressed)
+    {
       inputNumber2 = output;
+    }
     else {
       inputNumber1 = output;
     }
 }
+    
+    
+    
+    
 @end
