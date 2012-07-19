@@ -118,11 +118,11 @@
         inputNumber2 = [outputText doubleValue];
     } else {
         
-        UITextField inputNumber1;
-        UITextField inputNumber2;
-        
-    }  
+        inputNumber1 = [outputText doubleValue];
     
+        
+    }
+    calculatorDisplay.text = outputText;
     
 }
 
