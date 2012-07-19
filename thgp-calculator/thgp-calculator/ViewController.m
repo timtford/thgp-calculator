@@ -16,7 +16,7 @@
 
 @end
 
-@implementation ViewController;
+@implementation ViewController 
 
 @synthesize operatorPressed;
 @synthesize calculatorDisplay;
@@ -38,6 +38,7 @@
 {
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
+
     //converion comands;
 
 
@@ -81,7 +82,6 @@
         operatorPressed = @"%";
         
     }
-    
 }
     
     
@@ -91,10 +91,26 @@
 
 
 
--(IBAction)numberPressed:(id)sender;
+-(IBAction)numberPressed:(id)sender
 {
-  
-   }
+    NSString *originalText;
+    NSString *outputText;
+    UIButton *buttonPressed = sender;
+    
+    originalText = calculatorDisplay.text;
+    outputText = [NSString stringWithFormat:originalText, buttonPressed.tag];    
+    
+    
+    if (isOperatorPressed) { 
+        
+        inputNumber2 = [outputText doubleValue];
+    } else {
+            
+        UITextField inputNumber1;
+        UITextField inputNumber2;
+      
+            }  
+}
 
 
 
@@ -105,12 +121,8 @@
 {    
     inputNumber1 = 0;
     inputNumber2 = 0;
-
-    operatorPressed = NULL;
-
-    NSString *operatorPressed = NULL;
-
     calculatedResult = 0;
+    operatorPressed = NULL;
     calculatorDisplay.text = NULL;
 }
 // changes input number to negative or positve
