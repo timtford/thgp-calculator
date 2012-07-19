@@ -146,7 +146,7 @@
     
     output = [calculatorDisplay.text doubleValue];
     output = output * -1;
-    calculatorDisplay.text = output;
+    
     if(isOperatorPressed)
     {
       inputNumber2 = output;
@@ -154,6 +154,8 @@
     else {
       inputNumber1 = output;
     }
+    
+    calculatorDisplay.text = [NSString stringWithFormat:@"%f", output];
 }
     
     
