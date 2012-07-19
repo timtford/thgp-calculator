@@ -124,7 +124,7 @@
 {
     NSString *originalText;
     NSString *outputText;
-    UIButton *buttonPressed = sender;
+    UIButton *buttonPressed = (UIButton *)sender;
     
     originalText = calculatorDisplay.text;
     outputText = [NSString stringWithFormat:originalText, buttonPressed.tag];    

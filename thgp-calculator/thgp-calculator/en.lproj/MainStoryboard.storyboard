@@ -63,7 +63,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="numberPressed:" destination="4" eventType="editingDidEndOnExit" id="D0f-7v-PMa"/>
+                                    <action selector="numberPressed:" destination="4" eventType="touchUpInside" id="wxz-bT-H8w"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Hh8-65-jGD">
@@ -78,7 +78,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="numberPressed:" destination="4" eventType="editingDidEndOnExit" id="ct0-EX-0ug"/>
+                                    <action selector="numberPressed:" destination="4" eventType="touchUpInside" id="dSr-sZ-Mde"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="cD1-q3-mpY">
@@ -93,7 +93,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="numberPressed:" destination="4" eventType="editingDidEndOnExit" id="rty-1y-5Zw"/>
+                                    <action selector="numberPressed:" destination="4" eventType="touchUpInside" id="YXg-vW-qXr"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="9GD-HV-cKk">
@@ -123,7 +123,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="numberPressed:" destination="4" eventType="editingDidEndOnExit" id="rFA-Cp-I5g"/>
+                                    <action selector="numberPressed:" destination="4" eventType="touchUpInside" id="cnw-0f-zA2"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="4Hb-me-Zkv">
@@ -138,7 +138,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="numberPressed:" destination="4" eventType="editingDidEndOnExit" id="NTz-dE-M27"/>
+                                    <action selector="numberPressed:" destination="4" eventType="touchUpInside" id="0xP-40-84m"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="tss-a4-P9j">
@@ -153,7 +153,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="numberPressed:" destination="4" eventType="editingDidEndOnExit" id="b99-Sk-KUW"/>
+                                    <action selector="numberPressed:" destination="4" eventType="touchUpInside" id="l9M-l5-Uox"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="hzB-ks-KbD">
@@ -168,7 +168,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="numberPressed:" destination="4" eventType="editingDidEndOnExit" id="1AY-zf-RyU"/>
+                                    <action selector="numberPressed:" destination="4" eventType="touchUpInside" id="Q1w-HC-kFJ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="mHo-Yd-i58">
@@ -183,7 +183,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="numberPressed:" destination="4" eventType="editingDidEndOnExit" id="yRX-bQ-AWe"/>
+                                    <action selector="numberPressed:" destination="4" eventType="touchUpInside" id="9oZ-lR-1Ru"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="U9E-Av-Sug">
@@ -198,7 +198,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="numberPressed:" destination="4" eventType="editingDidEndOnExit" id="MBV-FE-RTG"/>
+                                    <action selector="numberPressed:" destination="4" eventType="touchUpInside" id="yrc-2b-ABJ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="XSD-3Z-6cm">
@@ -212,6 +212,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="numberPressed:" destination="4" eventType="touchUpInside" id="JmT-ge-nkV"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="aow-Mf-iaO">
                                 <rect key="frame" x="240" y="59" width="72" height="69"/>
@@ -300,7 +303,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="numberPressed:" destination="4" eventType="editingDidEndOnExit" id="QIY-LD-hJ6"/>
+                                    <action selector="numberPressed:" destination="4" eventType="touchUpInside" id="RE3-vg-NZH"/>
                                 </connections>
                             </button>
                         </subviews>
