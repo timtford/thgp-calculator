@@ -24,7 +24,9 @@
  
 - (void)viewDidLoad
 {
+    isFirstInputAfterOP = TRUE;
     isOperatorPressed = FALSE;
+    isDecimalPressed = FALSE;
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }
@@ -126,9 +128,28 @@
     NSString *outputText;
     UIButton *buttonPressed = (UIButton *)sender;
     
+    if (isFirstInputAfterOP && isOperatorPressed) {
+        calculatorDisplay.text = @"";
+        isFirstInputAfterOP = FALSE;
+    }
     originalText = calculatorDisplay.text;
-    outputText = [NSString stringWithFormat:originalText, buttonPressed.tag];    
     
+    if (buttonPressed.tag == 10)
+    {
+        if (isDecimalPressed) {
+            outputText = originalText;
+        } else {
+            outputText = [NSString stringWithFormat:@"%@.", originalText];    
+            isDecimalPressed = TRUE;
+        }
+                    
+    } else {
+        outputText = [NSString stringWithFormat:@"%@%d", originalText, buttonPressed.tag];    
+    }
+    
+    NSLog(@"Number Pressed Called");
+    NSLog(@"Number Pressed = %d", buttonPressed.tag);
+    NSLog(@"outpuText = %@", outputText);
     
     if (isOperatorPressed) { 
         
@@ -154,8 +175,9 @@
     inputNumber2 = 0;
     calculatedResult = 0;
     operatorPressed = NULL;
-    calculatorDisplay.text = NULL;
+    calculatorDisplay.text = 0;
     isOperatorPressed = FALSE;
+    isDecimalPressed = FALSE;
 }
     
     

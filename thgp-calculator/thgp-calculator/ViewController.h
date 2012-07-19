@@ -14,13 +14,14 @@
     double inputNumber2;    
     NSString *operatorPressed;
     double calculatedResult;
-    UITextField *calculatorDisplay;
+    UILabel *calculatorDisplay;
     BOOL isOperatorPressed;
-    
+    BOOL isDecimalPressed;
+    BOOL isFirstInputAfterOP;
 }
 
 @property (nonatomic, retain) NSString  *operatorPressed;
-@property (nonatomic, retain) IBOutlet UITextField *calculatorDisplay;
+@property (nonatomic, retain) IBOutlet UILabel *calculatorDisplay;
 
 -(IBAction)numberPressed:(id)sender;
 -(IBAction)negativePositive:(id)sender;
