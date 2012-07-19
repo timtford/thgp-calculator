@@ -118,13 +118,13 @@
 {
     double output;
     
-    output=[calculatorDisplay.text doubleValue];
-    output=output *-1;
-    calculatorDisplay.text= output;
+    output = [calculatorDisplay.text doubleValue];
+    output = output * -1;
+    calculatorDisplay.text = output;
     if(isOperatorPressed){
-      inputNumber2= output;
+      inputNumber2 = output;
     else {
-      inputNumber1= output;
+      inputNumber1 = output;
     }
 }
 @end
