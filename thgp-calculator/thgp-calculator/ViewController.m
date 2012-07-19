@@ -53,7 +53,7 @@
     buttonInfo = (UIButton *)sender;
     NSLog(@" sender.tag = %d", buttonInfo.tag);
     
-
+    
     if (buttonInfo.tag == 26) 
     {
     // division sign was pressed

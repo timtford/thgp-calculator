@@ -15,13 +15,8 @@
     NSString *operatorPressed;
     double calculatedResult;
     UITextField *calculatorDisplay;
-<<<<<<< HEAD
-    bool isOperatorPressed;
-   
-=======
     BOOL isOperatorPressed;
     
->>>>>>> Good up until updating the the input Numbers
 }
 
 @property (nonatomic, retain) NSString  *operatorPressed;
