@@ -24,6 +24,7 @@
  
 - (void)viewDidLoad
 {
+    isOperatorPressed = FALSE;
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }
@@ -82,7 +83,10 @@
         operatorPressed = @"%";
     }
     
+    isOperatorPressed = TRUE;
+    
 }
+
     
     
 
