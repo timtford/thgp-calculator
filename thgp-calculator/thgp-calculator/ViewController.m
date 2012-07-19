@@ -94,12 +94,15 @@
 
 -(IBAction)calculate:(id)sender
 {
+    NSLog(@"calculate function called" );
+    NSLog(@"is operator pressed = %d", isOperatorPressed);
+    NSLog(@"operator pressed = %@",operatorPressed);
     
-    if (isOperatorPressed && operatorPressed == @"-") {
+    if (isOperatorPressed && operatorPressed == @"-"){
         calculatedResult = inputNumber1 - inputNumber2;
         calculatorDisplay.text = [NSString  stringWithFormat:@"%f", calculatedResult];
     } 
-
+    
     if(isOperatorPressed && operatorPressed == @"+") {
         calculatedResult = inputNumber1 + inputNumber2;
         calculatorDisplay.text = [NSString stringWithFormat:@"%f", calculatedResult];
