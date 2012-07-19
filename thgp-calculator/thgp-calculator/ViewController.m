@@ -95,13 +95,30 @@
     
     if (isOperatorPressed && operatorPressed == @"-") {
         calculatedResult = inputNumber1 - inputNumber2;
-        calculatedResult = calculatorDisplay.text;
-    } else {
+        calculatorDisplay.text = [NSString  stringWithFormat:@"%f", calculatedResult];
+    } 
+
+    if(isOperatorPressed && operatorPressed == @"+") {
+        calculatedResult = inputNumber1 + inputNumber2;
+        calculatorDisplay.text = [NSString stringWithFormat:@"%f", calculatedResult];
+    }
+
+
+    if(isOperatorPressed && operatorPressed == @"*") {
+        calculatedResult = inputNumber1 * inputNumber2;
+        calculatorDisplay.text = [NSString stringWithFormat:@"%f", calculatedResult];
+                
     }
     
-    
+    if( isOperatorPressed && operatorPressed == @"/") {
+        calculatedResult = inputNumber1 / inputNumber2;
+        calculatorDisplay.text = [NSString stringWithFormat:@"%f", calculatedResult];
+    }
+                                  
+
 }
-    
+
+
 
 -(IBAction)numberPressed:(id)sender
 {
