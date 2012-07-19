@@ -67,11 +67,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Hh8-65-jGD">
-<<<<<<< HEAD
                                 <rect key="frame" x="75" y="131" width="51" height="48"/>
-=======
-                                <rect key="frame" x="77" y="131" width="51" height="48"/>
->>>>>>> Good up until updating the the input Numbers
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="7">
@@ -314,20 +310,6 @@
             </objects>
         </scene>
     </scenes>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> Good up until updating the the input Numbers
-    <classes>
-        <class className="ViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
-        </class>
-    </classes>
-<<<<<<< HEAD
->>>>>>> added calculator display
-=======
     <classes>
         <class className="ViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
@@ -341,9 +323,6 @@
             </relationships>
         </class>
     </classes>
->>>>>>> worked on my negative positive ibaction
-=======
->>>>>>> Good up until updating the the input Numbers
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
