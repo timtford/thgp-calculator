@@ -138,6 +138,7 @@
     calculatedResult = 0;
     operatorPressed = NULL;
     calculatorDisplay.text = NULL;
+    isOperatorPressed = FALSE;
 }
     
     
