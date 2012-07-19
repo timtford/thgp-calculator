@@ -16,7 +16,7 @@
     double calculatedResult;
     UITextField *calculatorDisplay;
     bool isOperatorPressed;
-    double output
+    double output;
 }
 
 @property (nonatomic, retain) NSString  *operatorPressed;

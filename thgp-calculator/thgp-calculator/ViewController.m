@@ -117,11 +117,11 @@
 {    
     inputNumber1 = 0;
     inputNumber2 = 0;
-<<<<<<< HEAD
+
     operatorPressed = NULL;
-=======
+
     NSString *operatorPressed = NULL;
->>>>>>> worked on my negative positive ibaction
+
     calculatedResult = 0;
     calculatorDisplay.text = NULL;
 }
