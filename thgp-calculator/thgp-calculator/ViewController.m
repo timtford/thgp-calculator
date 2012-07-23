@@ -171,8 +171,8 @@
 
 
 
-//   ClearScreen/ Clears the screen.
--(IBAction)clearscreen:(id)sender 
+//   clearScreen/ Clears the screen.
+-(IBAction)clearScreen:(id)sender 
 {    
     inputNumber1 = 0;
     inputNumber2 = 0;
