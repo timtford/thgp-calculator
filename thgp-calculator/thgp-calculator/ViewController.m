@@ -12,6 +12,8 @@
 
 #import "ViewController.h"
 
+#import "math.h"
+
 @interface ViewController ()
 
 @end
@@ -120,6 +122,13 @@
     if( isOperatorPressed && operatorPressed == @"/") {
         calculatedResult = inputNumber1 / inputNumber2;
         calculatorDisplay.text = [NSString stringWithFormat:@"%f", calculatedResult];
+    }
+    
+    if( isOperatorPressed && operatorPressed == @"%") {
+        calculatedResult = sqrt(inputNumber1);
+        calculatorDisplay.text = [NSString stringWithFormat:@"%f", calculatedResult];
+        
+        NSLog(@"calculatedResult = %f",calculatedResult);
     }
                                   
 inputNumber2 = 0;
