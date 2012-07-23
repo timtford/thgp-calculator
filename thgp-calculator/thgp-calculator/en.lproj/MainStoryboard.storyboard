@@ -42,7 +42,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="negativePositive:" destination="4" eventType="touchUpInside" id="UDk-yM-8p2"/>
+                                    <action selector="negativePositive:" destination="2" eventType="touchUpInside" id="Azy-DV-aHd"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="5VC-0i-tit">
