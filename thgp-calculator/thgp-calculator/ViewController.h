@@ -18,6 +18,7 @@
     BOOL isOperatorPressed;
     BOOL isDecimalPressed;
     BOOL isFirstInputAfterOP;
+    BOOL didKalaniUpdateInputNumber1;
 }
 
 @property (nonatomic, retain) NSString  *operatorPressed;

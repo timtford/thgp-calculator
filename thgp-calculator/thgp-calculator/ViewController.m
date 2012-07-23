@@ -27,6 +27,7 @@
     isFirstInputAfterOP = TRUE;
     isOperatorPressed = FALSE;
     isDecimalPressed = FALSE;
+    didKalaniUpdateInputNumber1 = FALSE; 
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }
@@ -106,6 +107,7 @@
     if(isOperatorPressed && operatorPressed == @"+") {
         calculatedResult = inputNumber1 + inputNumber2;
         calculatorDisplay.text = [NSString stringWithFormat:@"%f", calculatedResult];
+        
     }
 
 
@@ -125,6 +127,7 @@ inputNumber1 = calculatedResult;
 isOperatorPressed = FALSE;
 isDecimalPressed = FALSE;
 isFirstInputAfterOP = TRUE;
+    didKalaniUpdateInputNumber1 = TRUE;
 
 }
 
@@ -140,7 +143,16 @@ isFirstInputAfterOP = TRUE;
         calculatorDisplay.text = @"";
         isFirstInputAfterOP = FALSE;
     }
-    originalText = calculatorDisplay.text;
+    if(didKalaniUpdateInputNumber1){
+        didKalaniUpdateInputNumber1 = FALSE; 
+        originalText = calculatorDisplay.text = @"";
+        
+    } else {
+        originalText = calculatorDisplay.text;
+        
+    }
+
+   
     
     if (buttonPressed.tag == 10)
     {
@@ -163,7 +175,7 @@ isFirstInputAfterOP = TRUE;
         
         inputNumber2 = [outputText doubleValue];
     } else {
-        
+               
         inputNumber1 = [outputText doubleValue];
     
         
