@@ -177,10 +177,12 @@
     inputNumber1 = 0;
     inputNumber2 = 0;
     calculatedResult = 0;
-    operatorPressed = NULL;
-    calculatorDisplay.text = 0;
+    operatorPressed = @"";
+    calculatorDisplay.text = @"";
     isOperatorPressed = FALSE;
     isDecimalPressed = FALSE;
+    isFirstInputAfterOP = TRUE;
+    
 }
     
     
