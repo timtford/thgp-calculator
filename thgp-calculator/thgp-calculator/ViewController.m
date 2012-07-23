@@ -120,6 +120,11 @@
         calculatorDisplay.text = [NSString stringWithFormat:@"%f", calculatedResult];
     }
                                   
+inputNumber2 = 0;
+inputNumber1 = calculatedResult;
+isOperatorPressed = FALSE;
+isDecimalPressed = FALSE;
+isFirstInputAfterOP = TRUE;
 
 }
 
